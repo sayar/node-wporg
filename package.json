@@ -1,0 +1,43 @@
+{
+  "name": "wporg",
+  "version": "0.0.1",
+  "description": "A node WordPress(.org) client.",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/wporg.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sayar/node-wporg.git"
+  },
+  "keywords": [
+    "wordpress",
+    "blog",
+    "cms"
+  ],
+  "author": "Rami Sayar <rami.sayar@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/sayar/node-wporg/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">=0.6",
+    "npm": ">=1.0.0"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "288a05cf30bbb2da2b44fcb34fa6c66cca000417",
+  "bugs": {
+    "url": "https://github.com/sayar/node-wporg/issues"
+  },
+  "devDependencies": {
+    "vows": "~0.7.0"
+  },
+  "dependencies": {
+    "xmlrpc": "~1.1.0"
+  }
+}
