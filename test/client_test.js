@@ -19,7 +19,9 @@ vows.describe('Client').addBatch({
             , 'contains the correct default args' : function (topic) {
                 assert.deepEqual(topic.defaultArgs, {
                     username: "test",
-                    password: "test"});
+                    password: "test",
+                    blogId: 1
+                });
             }
         }
         // Test passing string URI for options
