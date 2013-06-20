@@ -3,4 +3,5 @@
 examples/
 test/
 docs/
-
+.jshintrc
+Gruntfile.js

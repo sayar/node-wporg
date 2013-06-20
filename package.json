@@ -35,7 +35,12 @@
     "url": "https://github.com/sayar/node-wporg/issues"
   },
   "devDependencies": {
-    "vows": "~0.7.0"
+    "vows": "~0.7.0",
+    "grunt": "~0.4.1",
+    "grunt-docco": "~0.2.0",
+    "grunt-vows-runner": "~0.5.2",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-jshint": "~0.6.0"
   },
   "dependencies": {
     "xmlrpc": "~1.1.0",
