@@ -21,6 +21,8 @@ Example
 =======
 
 ```
+var wp = require('wporg');
+
 var client = wp.createClient({
     username: "username",
     password: "password",
