@@ -1,6 +1,2 @@
-* Make sure all parameters are validated.
-* Clean up check if not null (use validator)
-* Complete API
-* Complete Documentation
 * Write Tests
-* Write Examples
+* Write More Examples and Complete Documentation

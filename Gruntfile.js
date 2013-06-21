@@ -22,11 +22,11 @@ module.exports = function (grunt) {
                 }
             }
         },
-        docco: {
-            server: {
-                src: ['lib/**/*.js'],
+        jsdoc : {
+            dist : {
+                src: ['lib/*.js'],
                 options: {
-                    output: 'docs/'
+                    destination: 'docs'
                 }
             }
         }
@@ -35,7 +35,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'jshint',
         'vows',
-        'docco'
+        'jsdoc'
     ]);
 
     grunt.registerTask('default', ['build']);

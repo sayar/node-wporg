@@ -1,6 +1,6 @@
 {
   "name": "wporg",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A node WordPress(.org) client.",
   "directories": {
     "lib": "./lib"
@@ -37,10 +37,12 @@
   "devDependencies": {
     "vows": "~0.7.0",
     "grunt": "~0.4.1",
-    "grunt-docco": "~0.2.0",
     "grunt-vows-runner": "~0.5.2",
     "matchdep": "~0.1.2",
-    "grunt-contrib-jshint": "~0.6.0"
+    "grunt-contrib-jshint": "~0.6.0",
+    "jsdoc": "~3.2.0-dev",
+    "grunt-jsdoc": "~0.3.3",
+    "grunt-cli": "~0.1.9"
   },
   "dependencies": {
     "xmlrpc": "~1.1.0",
