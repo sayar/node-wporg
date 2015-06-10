@@ -13,14 +13,14 @@ Installation
 
 To install run:
 
-```
+```sh
 npm install wporg
 ```
 
 Example
 =======
 
-```
+```node
 var wp = require('wporg');
 
 var client = wp.createClient({
@@ -46,14 +46,14 @@ You can generate documentation (as well as run jshint and tests) by running:
 
 Note: JAVA_HOME needs to be set.
 
-```
+```sh
 npm install
 ./node_modules/grunt-cli/bin/grunt
 ```
 
 or
 
-```
+```sh
 ./node_modules/jsdoc/jsdoc lib -d docs
 ```
 
